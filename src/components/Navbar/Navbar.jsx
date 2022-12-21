@@ -154,7 +154,6 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <Button>ytg</Button>
         </Toolbar>
       </Container>
     </AppBar>
