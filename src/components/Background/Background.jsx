@@ -1,7 +1,13 @@
-import React from "react";
+import { createTheme } from "@mui/material/styles";
+import { purple } from "@mui/material/colors";
 
-const Background = () => {
-  return <div></div>;
-};
-
-export default Background;
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: purple[500],
+    },
+    secondary: {
+      main: "#f44336",
+    },
+  },
+});
